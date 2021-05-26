@@ -1,0 +1,181 @@
+.interna_produtos {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.produto_item {
+  padding-top: 60px;
+}
+
+.produto_icone {
+  background-color: black;
+  padding: 70px 0;
+}
+
+.produto_icone img {
+  margin: 0 auto;
+}
+
+.produto_item h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  top: -180px;
+  text-align: center;
+  color: white;
+  margin-bottom: -56px;
+}
+
+.produto_item h2::after,
+.produto_item h2::before {
+  content: "";
+  width: 60px;
+  display: block;
+  height: 3px;
+  background-color: white;
+  margin: 8px auto 10px auto;
+}
+
+.produto_info {
+  background-color: #000;
+}
+
+.produto_info p {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 30px 40px;
+  height: 180px;
+}
+
+.produto_info ul li {
+  background-color: #fec63e;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+  float: left;
+  text-align: center;
+  width: 229px;
+  height: 49px;
+  padding-top: 16px;
+  font-weight: bold;
+}
+
+.produto_info ul li:nth-child(1),
+.produto_info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+.produto_info ul li:nth-child(even) {
+  margin-left: 2px;
+}
+
+.orcamento {
+  background-color: black;
+  margin-top: 80px;
+  padding-top: 40px;
+}
+
+.branco {
+  color: #fec63e;
+  text-align: center;
+}
+
+.orcamento .branco:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  background-color: #fec63e;
+  margin: 8px auto;
+}
+
+.formulario_produtos label {
+  color: white;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.formulario_produtos input {
+  color: white;
+  background-color: #000;
+  border: solid 3px #fec63e;
+  width: 400px;
+  height: 40px;
+  margin: 5px 0 10px 0;
+}
+
+.formulario_produtos textarea {
+  color: white;
+  background-color: #000;
+  border: solid 3px #fec63e;
+  width: 400px;
+  margin: 5px 0 30px 0;
+}
+
+.dados_produtos h2 {
+  font-size: 18px;
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dados_produtos ul li p {
+  color: white;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.monte h2 {
+  font-size: 18px;
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.monte p {
+  color: white;
+  font-size: 14px;
+  padding: 8px 0px;
+  margin-left: 10px;
+}
+
+.monte ul li:nth-child(even) {
+  background-color: rgba(175, 170, 170, 0.212);
+}
+
+.formulario_produtos .btn_interno {
+  text-align: center;
+  margin-left: -1px;
+  margin: 20px 0 60px -1px;
+}
+
+.formulario_produtos .btn_interno:hover {
+  color: white;
+  border: 3px solid #fff;
+}
+
+.formulario_produtos label {
+  display: block;
+}
+
+.formulario_produtos button {
+  padding: 7px 40px;
+  background-color: black;
+}
+
+.formulario_produtos form {
+  padding: 40px 0px;
+}
+
+.orcamento .dados_produtos {
+  padding: 40px 10px;
+}
+
+.orcamento .monte ul {
+  padding-right: 60px;
+}
+

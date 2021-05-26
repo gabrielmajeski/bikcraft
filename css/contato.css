@@ -1,0 +1,139 @@
+.interna_portfolio {
+  background: url("../img/bg-contato.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.contato {
+  padding-top: 40px;
+}
+
+.branco {
+  color: #fec63e;
+  text-align: center;
+}
+
+.contato .branco:after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  display: block;
+  background-color: #fec63e;
+  margin: 8px auto;
+}
+
+.formulario_contato label {
+  color: black;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.formulario_contato input {
+  color: white;
+  background-color: white;
+  border: solid 3px #fec63e;
+  width: 400px;
+  height: 40px;
+  margin: 5px 0 10px 0;
+}
+
+.formulario_contato textarea {
+  color: white;
+  background-color: white;
+  border: solid 3px #fec63e;
+  width: 400px;
+  margin: 5px 0 30px 0;
+}
+
+.contato_redes h2 {
+  font-size: 18px;
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.dados h2 {
+  font-size: 18px;
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dados ul li p {
+  color: #000;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+.monte h2 {
+  font-size: 18px;
+  color: #fec63e;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.monte p {
+  color: #000;
+  font-size: 14px;
+  padding: 8px 0px;
+  margin-left: 10px;
+}
+
+.formulario_contato .btn_interno {
+  text-align: center;
+  margin-left: -1px;
+  margin: 20px 0 60px -1px;
+}
+
+.formulario_contato label {
+  display: block;
+}
+
+.formulario_contato button {
+  padding: 7px 40px;
+  background-color: #fff;
+}
+
+.formulario_contato form {
+  padding: 40px 0px;
+}
+
+.contato .dados {
+  padding: 40px 10px;
+}
+
+.contato .monte ul {
+  padding-right: 60px;
+}
+
+.dados ul li:nth-child(2) {
+  padding-bottom: 40px;
+}
+
+.contato_redes ul li a:hover {
+  border-color: #000;
+}
+
+.contato_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contato_redes ul li a {
+  border: 3px solid #fec63e;
+  display: block;
+  padding: 10px;
+}
+
+.contato_mapa {
+  margin-bottom: 60px;
+}
+
+.formulario_contato input {
+  color: #000;
+}
+
+
+.formulario_contato textarea {
+  color: #000;
+}
